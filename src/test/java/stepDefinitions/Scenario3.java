@@ -18,7 +18,7 @@ public class Scenario3 {
 
     @When("login as admin user")
     public void loginAsAdminUser() {
-        log.info("Scenario 3: Logging into OrangeHRM application with administrative privileges");
+        //log.info("Scenario 3: Logging into OrangeHRM application with administrative privileges");
         loginPage.enterUsername("Admin");
         loginPage.enterPassword("admin123");
         loginPage.clickLogin();

@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions; // Native JUnit 5 Assertions
 import pages.LeavePage;
 
-public class Scenario7 {
+public class Scenario7_and_13 {
 
     private final LeavePage leavePage = new LeavePage(base.DriverFactory.getDriver());
 

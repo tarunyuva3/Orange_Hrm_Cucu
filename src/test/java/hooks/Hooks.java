@@ -28,7 +28,7 @@ public class Hooks {
         if (DriverFactory.getDriver() != null) {
             log.info("-------------------- TEARING DOWN SCENARIO --------------------");
             DriverFactory.quitDriver();
-            //driver = null; // Reset local static pointer reference
+
         }
     }
 }

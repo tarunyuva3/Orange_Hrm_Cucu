@@ -16,7 +16,7 @@ import io.cucumber.junit.platform.engine.Constants;
 )
 @ConfigurationParameter(key = Constants.EXECUTION_DRY_RUN_PROPERTY_NAME, value = "false")
 @ConfigurationParameter(key = "cucumber.ansi-colors.disabled", value = "false")
-@ConfigurationParameter(key = "cucumber.publish.quiet", value = "true")
+@ConfigurationParameter(key = "cucumber.publish.quiet", value = "false")
 // Filters specifically for the individual @Regression markers
 @ConfigurationParameter(key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@Regression")
 public class RegressionTestRunner

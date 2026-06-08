@@ -107,6 +107,7 @@ public class PimPage {
     }
 
     public void enableCreateLoginDetails() {
+        lp.waitForLoaderToDisappear();
         wait.until(ExpectedConditions.elementToBeClickable(createLoginToggle)).click();
     }
 

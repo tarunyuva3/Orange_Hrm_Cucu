@@ -1,5 +1,7 @@
 package pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class AdminPage {
+    private static final Logger log = LogManager.getLogger(AdminPage.class);
     private WebDriver driver;
     private WebDriverWait wait;
     private LoginPage lp;
@@ -30,7 +33,7 @@ public class AdminPage {
     @FindBy(xpath = "//label[text()='Status']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text')]")
     private WebElement statusDropdown;
 
-    // Add User Form Form Input Fields
+    // Add User Form Input Fields
     @FindBy(xpath = "//label[text()='Employee Name']/ancestor::div[contains(@class,'oxd-input-group')]//input")
     private WebElement employeeNameInput;
 
@@ -49,6 +52,30 @@ public class AdminPage {
 
     @FindBy(xpath = "//div[contains(@class,'oxd-form-actions')]//button[@type='submit']")
     private WebElement searchButton;
+
+    // ========================================================
+    // SCENARIO 10: JOB TITLES FIELD LOCATORS
+    // ========================================================
+    @FindBy(xpath = "//span[normalize-space()='Job']")
+    private WebElement jobDropdownMenu;
+
+    @FindBy(xpath = "//a[text()='Job Titles']")
+    private WebElement jobTitlesSubMenuOption;
+
+    @FindBy(xpath = "//label[text()='Job Title']/ancestor::div[contains(@class,'oxd-input-group')]//input")
+    private WebElement jobTitleInputField;
+
+    @FindBy(xpath = "//label[text()='Job Description']/ancestor::div[contains(@class,'oxd-input-group')]//textarea")
+    private WebElement jobDescriptionTextArea;
+
+    @FindBy(xpath = "//label[text()='Note']/ancestor::div[contains(@class,'oxd-input-group')]//textarea")
+    private WebElement jobNoteTextArea;
+
+    @FindBy(xpath = "//input[@type='file']")
+    private WebElement fileUploadHiddenInput;
+
+    @FindBy(xpath = "//div[contains(@class,'oxd-toast')]")
+    private WebElement successToastNotification;
 
     public AdminPage(WebDriver driver) {
         this.driver = driver;
@@ -145,6 +172,56 @@ public class AdminPage {
             String cellXpath = "//div[@class='oxd-table-body']//div[@role='row']//div[text()='" + username + "']";
             return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(cellXpath))).isDisplayed();
         } catch (Exception e) {
+            return false;
+        }
+    }
+
+    // ========================================================
+    // SCENARIO 10: NEW JOB TITLES ACTION METHODS
+    // ========================================================
+    public void navigateToJobTitlesMenu() {
+        wait.until(ExpectedConditions.elementToBeClickable(adminMenuOption)).click();
+        lp.waitForLoaderToDisappear();
+        wait.until(ExpectedConditions.elementToBeClickable(jobDropdownMenu)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(jobTitlesSubMenuOption)).click();
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void enterJobTitleDetails(String title, String description, String note) {
+        wait.until(ExpectedConditions.visibilityOf(jobTitleInputField)).sendKeys(title);
+        jobDescriptionTextArea.sendKeys(description);
+        jobNoteTextArea.sendKeys(note);
+    }
+
+    public void uploadJobSpecificationFile(String path) {
+        fileUploadHiddenInput.sendKeys(path);
+    }
+
+    public boolean isSuccessToastDisplayed() {
+        try {
+            WebElement toast = wait.until(ExpectedConditions.visibilityOf(successToastNotification));
+            String toastText = toast.getText().toLowerCase();
+            return toastText.contains("success") || toastText.contains("saved");
+        } catch (Exception e) {
+            return false;
+        } finally {
+            lp.waitForLoaderToDisappear();
+        }
+    }
+
+    public boolean isJobTitleAndDescriptionPresentInGrid(String expectedTitle, String expectedDesc) {
+        lp.waitForLoaderToDisappear();
+        try {
+            String dynamicRowExpression = "//div[@role='row' and .//div[text()='" + expectedTitle + "'] and .//div[contains(.,'" + expectedDesc + "')]]";
+            WebElement verifiedRow = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(dynamicRowExpression)));
+
+            if (verifiedRow.isDisplayed()) {
+                log.info("[Validation Success] Successfully located target Job Title: '{}' with Description: '{}' inside the records grid.", expectedTitle, expectedDesc);
+                return true;
+            }
+            return false;
+        } catch (Exception e) {
+            log.error("[ERROR] Failed to locate Job Title record row matching Title: '{}' and Description: '{}'. Error: {}", expectedTitle, expectedDesc, e.getMessage());
             return false;
         }
     }
