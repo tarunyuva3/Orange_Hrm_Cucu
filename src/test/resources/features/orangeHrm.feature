@@ -1,6 +1,6 @@
 @AllTests
 Feature: OrangeHRM Different Sceanrios
-  @Regression
+
   #Scenario1-login validation
   Scenario: Verify login with valid credentials
     Given the user is navigated to OrangeHrm login page
@@ -22,20 +22,26 @@ Feature: OrangeHRM Different Sceanrios
        | Invalid  | admin123  | Invalid credentials |
        | Admin    | wrongPass | Invalid credentials |
 
+
    #Scenario2-Add Employee validation
    Scenario: Verify adding a new employee successfully
      Given the user is navigated to OrangeHrm login page
      When the user enters username "Admin"
      And the user enters password "admin123"
+
      And the user clicks the Login button
      Then the Dashboard page should load successfully
+
      And navigates to PIM and click on add employee
      And user enters the employee name "Rav" and "rayudu"
+
      And click on toggle button
      And user fills username "Ravrayudu" and password "Ravireddy123"
+
      And click on save button
      Then profile details should be displayed
 
+   @Regression
    # Scenario3 - Employee Search validation: covers autocomplete, search filter and data table
    Scenario: Verify employee search using filters
      Given the user is navigated to OrangeHrm login page
@@ -43,6 +49,7 @@ Feature: OrangeHRM Different Sceanrios
      And the user searches employee "Rav rayudu" from Employee List
      Then matching employee rows for "Rav rayudu" should be displayed
 
+   @Regression
    # Scenario4 - Edit Employee validation: covers tabs, radio buttons and dropdowns
    Scenario: Verify editing employee personal details
      Given the user is navigated to OrangeHrm login page
@@ -50,28 +57,19 @@ Feature: OrangeHRM Different Sceanrios
      And the user opens employee "Rav rayudu" and updates gender "Male" nationality "Indian" and marital status "Single"
      Then employee nationality should persist as "Indian"
 
-   # Scenario5 - Deleting an employee id
-   Scenario: Verify deleting an employee using checkbox and confirmation modal
-     Given login as admin user
-     And the user searches employee "Rav rayudu" from Employee List
-     When the user selects the checkbox for employee "Rav rayudu"
-     And clicks the delete selected button
-     And confirms the deletion in the modal popup
-     Then a success message notification should be displayed
-     And the employee record "Rav rayudu" should no longer exist in the table
-
- #   #Scenario6 - Applying Leave --> this is a wrong scenario
- #  Scenario: Verify submitting a leave application successfully
- #    Given login as admin user
- #    When the user navigates to Leave and clicks Apply options
- #    And selects leave type as "CAN - Personal"
- #    And picks start date "2026-06-10" and end date "2026-06-12"
- #    And adds a leave comment "Personal reasons application"
- #    And clicks the apply leave button
- #    Then the leave request should be successfully created
+#     @Regression
+#    #Scenario6 - Applying Leave --> This is a flaky scenario(sometimes it works and sometimes it doesn't)
+#   Scenario: Verify submitting a leave application successfully
+#     Given login as created user
+#     When the user navigates to Leave and clicks Apply options
+#     And selects leave type as "CAN - Bereavement"
+#     And picks start date "2026-23-06" and end date "2026-25-06"
+#     And adds a leave comment "Personal reasons application"
+#     And clicks the apply leave button
+#     Then the leave request should be successfully created
 
    @Regression
- # Scenario7 - Assigning a Leave
+   # Scenario7 and Scenario13 - Assigning a Leave and negative scenario
    Scenario Outline: Verify assigning leave behaviors for both valid data and missing required fields
      Given login as admin user
      When the user navigates to Leave and clicks Assign Leave options
@@ -82,12 +80,12 @@ Feature: OrangeHRM Different Sceanrios
      Examples:
        | fullEmployee | leaveType      | startDate  | endDate    | expectedValidationResult |
        | Rav rayudu   | CAN - Personal | 2026-07-01 | 2026-07-03 | Success                  |
- #      |              | -- Select --   |            |            | Required Validation      |
+       |              | -- Select --   |            |            | Required Validation      |
 
    @Regression
    #Scenario8 - Punched In and Out Time
    Scenario: Verify time registration state alterations from Punched In to Punched Out on Dashboard
-     Given login as admin user
+     Given login as created user
      When the user accesses Punch module from the Dashboard clock widget shortcut
      And enters Punch In time configuration value "06:00 AM" and clicks login
      And enters Punch Out time configuration value "07:00 AM" and clicks logout
@@ -95,7 +93,6 @@ Feature: OrangeHRM Different Sceanrios
      Then the dashboard time at work status badge must display as "Punched Out"
 
   #Scenario9 - Admin Module – Add User
-  @Regression
   Scenario: Admin Module - Add user role configuration and verification
     Given login as admin user
     When the user navigates to Admin User Management module
@@ -105,9 +102,48 @@ Feature: OrangeHRM Different Sceanrios
     Then the user searches for username "RaviRayudu" in the system users table
     And verifies that the user appears successfully in the data records row
 
+  @Regression
+  #Scenario10 - Job Titles – File Upload + Text Areas
+  Scenario Outline: Job Titles – File Upload and Text Area validation
+    Given login as admin user
+    When the user navigates to Admin Job module and selects Job Titles option
+    And clicks the Add Job Title configuration button
+    And fills out job configuration details with title "<jobTitle>", description "<jobDescription>", note "<jobNote>", and specs file path "<filePath>"
+    And clicks the Save Job Title button
+    Then a success toast alert notification should appear validating the operation
+    And the user should be redirected back onto the Job Titles grid list verifying that "<jobTitle>" and description "<jobDescription>" match accurately
+
+    Examples:
+      | jobTitle | jobDescription                   | jobNote                         | filePath                                                                                                  |
+      | Tester   | Handles system execution testing | Automation verification scripts | C:/Users/2457388/OneDrive - Cognizant/Documents/Scenarios-Orange Hrm/Scenario List.docx |
+
+  @Regression
+  #Scenario14 - Navigation Menu – Sidebar + Routing
+  Scenario: Navigation Menu – Sidebar and Routing validation
+    Given login as admin user
+    When the user clicks the "Admin" module link in the sidebar menu
+    Then the Admin page should load successfully with the updated URL containing "admin/viewSystemUsers"
+
+    When the user clicks the "PIM" module link in the sidebar menu
+    Then the PIM page should load successfully with the updated URL containing "pim/viewEmployeeList"
+
+    When the user clicks the "Leave" module link in the sidebar menu
+    Then the Leave page should load successfully with the updated URL containing "leave/viewLeaveList"
+
+    When the user clicks the "Time" module link in the sidebar menu
+    Then the Time page should load successfully with the updated URL containing "time/viewEmployeeTimesheet"
+
+   # Scenario5 - Deleting an employee id
+  Scenario: Verify deleting an employee using checkbox and confirmation modal
+    Given login as admin user
+    And the user searches employee "Rav rayudu" from Employee List
+    When the user selects the checkbox for employee "Rav rayudu"
+    And clicks the delete selected button
+    And confirms the deletion in the modal popup
+    Then a success message notification should be displayed
+    And the employee record "Rav rayudu" should no longer exist in the table
 
   #Scenario15 - Profile Menu - Dropdown + Logout
-  @Regression
   Scenario: Profile Menu – Dropdown and Logout validation
     Given login as admin user
     When the user clicks the profile icon dropdown menu

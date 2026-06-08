@@ -719,3 +719,357 @@
 [2026-05-28 22:38:20] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
 [2026-05-28 22:38:33] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
 [2026-05-28 22:38:55] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 13:50:44] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 13:51:19] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 13:51:35] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 13:51:46] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-05-29 13:52:19] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 13:53:21] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 13:53:33] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-05-29 13:54:21] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 13:58:20] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 13:58:29] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-05-29 13:58:43] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 13:59:25] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 13:59:34] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-05-29 13:59:45] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-05-29 14:00:14] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-05-29 14:00:23] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-05-29 14:00:32] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:04:16] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:04:42] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:06:12] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:08:03] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:08:29] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:10:21] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:11:46] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:12:18] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:12:48] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:15:51] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:16:11] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:16:31] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:17:57] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:18:12] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:18:51] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:26:17] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:26:31] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:26:46] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:27:37] [WARN ] [main] AdminPage - [WARNING] Retrying file name resolution. Native text field read empty: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-file-name')]' (tried for 15 second(s) with 500 milliseconds interval)
+[2026-06-01 13:27:37] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:33:13] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:33:28] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:34:21] [WARN ] [main] AdminPage - [WARNING] Retrying file name locator resolution. Element text read empty: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-file-name')]' (tried for 15 second(s) with 500 milliseconds interval)
+[2026-06-01 13:34:21] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:39:30] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:39:45] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:40:05] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:46:30] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:47:01] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-01 13:47:42] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:48:33] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:48:52] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 13:48:57] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-01 13:50:05] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 13:58:12] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 13:59:03] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 16:39:14] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 16:39:33] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 16:40:17] [WARN ] [main] AdminPage - [WARNING] Retrying file name locator resolution. Element text read empty: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-file-name')]' (tried for 15 second(s) with 500 milliseconds interval)
+[2026-06-01 16:40:17] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 16:47:19] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 16:47:33] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 16:48:21] [WARN ] [main] AdminPage - [WARNING] Explicit wait for attachment filename timed out: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'oxd-file-name')]' (tried for 15 second(s) with 500 milliseconds interval)
+[2026-06-01 16:48:21] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-01 16:50:12] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-01 16:50:27] [INFO ] [main] Scenario3 - Scenario 3: Logging into OrangeHRM application with administrative privileges
+[2026-06-01 16:51:16] [INFO ] [main] AdminPage - [Validation Success] Successfully located target Job Title: 'Tester' with Description: 'Handles system execution testing' inside the records grid.
+[2026-06-01 16:51:16] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:18:10] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:18:34] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:18:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:33:01] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:33:29] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:33:44] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:35:51] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:36:10] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:36:27] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:36:27] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:41:50] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:42:23] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:42:38] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:42:49] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:43:29] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:43:50] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:44:11] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 12:44:33] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:44:53] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:45:25] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 12:50:07] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 12:50:28] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 13:19:55] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:20:17] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 13:20:42] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:21:02] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:21:25] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:21:47] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:22:05] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:22:23] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-02 13:22:41] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:23:45] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:24:09] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 13:24:22] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:26:25] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:27:04] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:28:18] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:28:40] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:29:01] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:29:26] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:30:32] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:31:01] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:31:19] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:31:37] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:33:12] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:33:28] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 13:33:39] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:33:39] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:33:51] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:34:05] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:34:23] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:34:42] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:35:11] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:35:18] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:35:34] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 13:35:44] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:35:44] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:36:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:36:20] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 13:38:54] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 13:39:35] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:04:20] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:04:39] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:05:00] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:05:22] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:05:43] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:06:10] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:06:26] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:06:44] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:07:00] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:08:22] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:08:51] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:09:27] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:09:59] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:10:22] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:10:43] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:10:59] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:11:39] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-02 17:11:49] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-02 17:13:09] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-02 17:13:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 12:40:22] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 12:41:15] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 12:42:02] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 12:42:40] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 12:43:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 13:55:14] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 13:55:46] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:04:11] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:04:37] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:05:13] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:06:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:06:18] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:06:39] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:06:49] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:07:30] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:07:40] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:08:28] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:08:41] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 15:09:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:11:07] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:11:30] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:12:24] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:13:09] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:13:34] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:14:02] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:14:17] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:15:00] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:15:04] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:23:35] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:24:03] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:24:22] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:24:42] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:25:15] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:25:34] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:25:56] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:26:10] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:26:30] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 15:27:07] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 15:48:57] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 15:50:49] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:46:35] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:46:55] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:47:07] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:47:30] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:48:07] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:49:31] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:49:50] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 20:50:48] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:53:08] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:53:26] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:54:08] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:54:48] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:55:05] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:55:27] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 20:55:43] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 20:56:00] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:56:07] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:56:17] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:57:00] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 20:57:08] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-5] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-12] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-2] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-4] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-1] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-10] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-12] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:04:34] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 21:05:21] [INFO ] [ForkJoinPool-3-worker-5] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:22] [INFO ] [ForkJoinPool-3-worker-12] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:23] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:23] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:43] [INFO ] [ForkJoinPool-3-worker-8] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 21:05:46] [INFO ] [ForkJoinPool-3-worker-4] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-08 21:05:46] [INFO ] [ForkJoinPool-3-worker-4] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:50] [INFO ] [ForkJoinPool-3-worker-1] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:05:51] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:06:04] [INFO ] [ForkJoinPool-3-worker-3] AdminPage - [Validation Success] Successfully located target Job Title: 'Tester' with Description: 'Handles system execution testing' inside the records grid.
+[2026-06-08 21:06:04] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:06:11] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:06:12] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 21:06:51] [INFO ] [ForkJoinPool-3-worker-2] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:52:26] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:52:42] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 22:52:42] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:52:42] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:52:58] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:52:58] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:53:15] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:53:15] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:53:31] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:53:31] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:53:48] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:53:48] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:54:30] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:54:41] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 22:54:41] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:54:45] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:55:19] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:55:22] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:55:56] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:56:00] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:56:06] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:56:14] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:56:30] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 22:56:30] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:56:34] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:56:46] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-08 22:56:46] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:56:51] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:57:02] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-08 22:57:02] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:57:06] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:57:18] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 22:57:40] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:57:45] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:57:57] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 22:58:08] [INFO ] [main] Scenario3 - Scenario 3: Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-08 22:58:09] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:58:12] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:58:45] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:58:49] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 22:58:58] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 22:59:22] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 22:59:28] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:00:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:00:14] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 23:00:14] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:00:18] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:00:30] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-08 23:00:30] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:00:35] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:00:46] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-08 23:00:46] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:00:50] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:01:02] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 23:01:12] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:01:16] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:01:25] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 23:01:31] [INFO ] [main] Scenario3 - Scenario 3: Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-08 23:01:32] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:01:35] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:01:59] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:02:04] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:02:26] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:02:29] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:02:58] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:03:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:03:35] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:03:39] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:04:02] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:04:07] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:04:29] [INFO ] [main] AdminPage - [Validation Success] Successfully located target Job Title: 'Tester' with Description: 'Handles system execution testing' inside the records grid.
+[2026-06-08 23:04:29] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:04:34] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:04:51] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:04:54] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:05:05] [INFO ] [main] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 23:05:28] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:05:33] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:05:47] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:27:18] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:28:21] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:28:25] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:28:39] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-08 23:29:01] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:29:17] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:29:51] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:32:24] [INFO ] [ForkJoinPool-3-worker-12] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:33:00] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:01] [INFO ] [ForkJoinPool-3-worker-12] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:05] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:08] [INFO ] [ForkJoinPool-3-worker-6] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 23:33:20] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:23] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:30] [INFO ] [ForkJoinPool-3-worker-6] Scenario3 - Scenario 3: Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-08 23:33:43] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:33:45] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-5] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:02] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-08 23:35:26] [INFO ] [ForkJoinPool-3-worker-9] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:30] [INFO ] [ForkJoinPool-3-worker-8] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:31] [INFO ] [ForkJoinPool-3-worker-5] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:32] [INFO ] [ForkJoinPool-3-worker-3] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:34] [INFO ] [ForkJoinPool-3-worker-6] Scenario3 - Scenario 3: Initializing PIM module search routine for target: Rav rayudu
+[2026-06-08 23:35:48] [INFO ] [ForkJoinPool-3-worker-11] AdminPage - [Validation Success] Successfully located target Job Title: 'Tester' with Description: 'Handles system execution testing' inside the records grid.
+[2026-06-08 23:35:48] [INFO ] [ForkJoinPool-3-worker-11] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:35:55] [INFO ] [ForkJoinPool-3-worker-6] Scenario3 - Scenario 3: Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-08 23:36:11] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-08 23:36:11] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- TEARING DOWN SCENARIO --------------------

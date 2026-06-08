@@ -53,6 +53,24 @@ public class LeavePage {
     @FindBy(xpath = "//div[contains(@class,'orangehrm-modal-footer')]//button[contains(@class,'oxd-button--secondary')]")
     private WebElement noleavesapprovebutton;
 
+    @FindBy(xpath = "//a[text()='Apply']")
+    private WebElement applyLeaveSubMenu;
+
+    @FindBy(xpath = "//label[text()='Comments']/ancestor::div[contains(@class,'oxd-input-group')]//textarea")
+    private WebElement leaveCommentsTextArea;
+
+    @FindBy(xpath = "//button[@type='submit' and normalize-space()='Apply']")
+    private WebElement applySubmitButton;
+
+    @FindBy(xpath = "//a[text()='My Leave']")
+    private WebElement myLeaveSubMenu;
+
+    @FindBy(xpath = "//ul[@class='oxd-dropdown-menu']//p[text()='View Leave Details']")
+    private WebElement viewLeaveDetailsDropdownOption;
+
+    @FindBy(xpath = "//h6[contains(normalize-space(),'Details') or contains(normalize-space(),'Leave Request')]")
+    private WebElement leaveDetailsPanelHeader;
+
     public LeavePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -157,4 +175,78 @@ public class LeavePage {
             return false;
         }
     }
+
+
+    // Scenario6 - Navigation & Interaction Methods
+    public void navigateToLeaveMenu() {
+        wait.until(ExpectedConditions.elementToBeClickable(leaveMenuOption)).click();
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void clickApplySubMenu() {
+        wait.until(ExpectedConditions.elementToBeClickable(applyLeaveSubMenu)).click();
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void enterLeaveComments(String commentText) {
+        WebElement element = wait.until(ExpectedConditions.visibilityOf(leaveCommentsTextArea));
+        element.clear();
+        element.sendKeys(commentText);
+    }
+
+    public void clickApplySubmitButton() {
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(applySubmitButton));
+        try {
+            btn.click();
+        } catch (Exception e) {
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
+        }
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void clickMyLeaveSubMenu() {
+        wait.until(ExpectedConditions.elementToBeClickable(myLeaveSubMenu)).click();
+        lp.waitForLoaderToDisappear();
+    }
+    public void verifyEmployeeRowAndClickDetails(String employeeName) {
+        lp.waitForLoaderToDisappear();
+
+        // Grabs the first name "Rav" exactly like your PIM logic
+        String matchKey = employeeName.split(" ")[0];
+
+        // Simplified XPath using your exact strategy to find the cell with the name
+        By employeeCellXpath = By.xpath("//div[contains(@class,'oxd-table-card')]//div[contains(text(),'" + matchKey + "')]");
+        WebElement employeeCell = wait.until(ExpectedConditions.visibilityOfElementLocated(employeeCellXpath));
+
+        // SHARPENED: Finds the specific icon action menu button or explicit details button inside that row
+        WebElement viewDetailsButton = employeeCell.findElement(By.xpath("./ancestor::div[@role='row']//button[contains(@class,'oxd-icon-button') or normalize-space()='View Details']"));
+
+        wait.until(ExpectedConditions.elementToBeClickable(viewDetailsButton));
+        try {
+            viewDetailsButton.click();
+        } catch (Exception e) {
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", viewDetailsButton);
+        }
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void selectViewLeaveDetailsFromMenu() {
+        // Clicks the specific text choice inside the custom popover dropdown window layer
+        WebElement option = wait.until(ExpectedConditions.elementToBeClickable(viewLeaveDetailsDropdownOption));
+        try {
+            option.click();
+        } catch (Exception e) {
+            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("arguments[0].click();", option);
+        }
+        lp.waitForLoaderToDisappear();
+    }
+
+    public boolean isLeaveDetailsPanelVisible() {
+        try {
+            return wait.until(ExpectedConditions.visibilityOf(leaveDetailsPanelHeader)).isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
 }
