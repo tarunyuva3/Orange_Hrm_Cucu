@@ -110,6 +110,7 @@ Feature: OrangeHRM Different Sceanrios
     And clicks the Add Job Title configuration button
     And fills out job configuration details with title "<jobTitle>", description "<jobDescription>", note "<jobNote>", and specs file path "<filePath>"
     And clicks the Save Job Title button
+    #Scenario12 -> Success Toast Notification
     Then a success toast alert notification should appear validating the operation
     And the user should be redirected back onto the Job Titles grid list verifying that "<jobTitle>" and description "<jobDescription>" match accurately
 
@@ -149,4 +150,15 @@ Feature: OrangeHRM Different Sceanrios
     When the user clicks the profile icon dropdown menu
     And selects the Logout option
     Then the user should be redirected back to the login page successfully
+
+  #Scenario11 - Table Features – Pagination + Sorting
+  Scenario: Table Features – Pagination and Sorting validation
+    Given login as admin user
+    When the user navigates to the PIM employee list table
+    And sorts the employee records by Id column in ascending order
+    And cycles through all available pagination pages with a safe load delay
+    Then the user should navigate back to the first page successfully
+
+
+    #Scenario12 - success toast notification is in Scenario10
 

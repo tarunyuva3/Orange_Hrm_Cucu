@@ -1073,3 +1073,95 @@
 [2026-06-08 23:35:55] [INFO ] [ForkJoinPool-3-worker-6] Scenario3 - Scenario 3: Confirming structural search visibility match criteria for: Rav rayudu
 [2026-06-08 23:36:11] [INFO ] [ForkJoinPool-3-worker-7] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
 [2026-06-08 23:36:11] [INFO ] [ForkJoinPool-3-worker-6] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:53:30] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:53:57] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-09 14:53:57] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:54:03] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:54:19] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-09 14:54:19] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:54:24] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:54:44] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-09 14:54:44] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:54:50] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:55:18] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-09 14:56:14] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:56:20] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:56:32] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 14:56:36] [INFO ] [main] Scenario3 - Scenario : Initializing PIM module search routine for target: Rav rayudu
+[2026-06-09 14:57:29] [INFO ] [main] Scenario3 - Scenario : Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-09 14:57:35] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:57:42] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:57:55] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 14:59:35] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 14:59:42] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 14:59:57] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:00:30] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:00:36] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:01:11] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:01:17] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:02:07] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:02:13] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:02:28] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:02:56] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:03:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:03:18] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:05:16] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:05:23] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:05:39] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:06:44] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:06:51] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:07:01] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:07:03] [INFO ] [main] Scenario3 - Scenario : Initializing PIM module search routine for target: Rav rayudu
+[2026-06-09 15:07:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:07:40] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:07:49] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:08:06] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:47:23] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:47:40] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-09 15:47:40] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:47:45] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:47:58] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-09 15:47:58] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:48:02] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:48:16] [INFO ] [main] Scenario1 - Captured Error Message from UI: Invalid credentials
+[2026-06-09 15:48:16] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:48:20] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:48:32] [INFO ] [main] Scenario1 - The Url of the page is https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[2026-06-09 15:48:47] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:48:53] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:49:02] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:49:05] [INFO ] [main] Scenario3 - Scenario : Initializing PIM module search routine for target: Rav rayudu
+[2026-06-09 15:49:37] [INFO ] [main] Scenario3 - Scenario : Confirming structural search visibility match criteria for: Rav rayudu
+[2026-06-09 15:49:39] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:49:45] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:49:56] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:50:32] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:50:38] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:50:47] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:51:04] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:51:11] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:51:20] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:51:45] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:51:51] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:52:30] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:52:36] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:52:44] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:53:09] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:53:15] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:53:23] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:53:56] [INFO ] [main] AdminPage - [Validation Success] Successfully located target Job Title: 'Tester' with Description: 'Handles system execution testing' inside the records grid.
+[2026-06-09 15:53:56] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:54:03] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:54:14] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:54:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:54:39] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:55:13] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-09 15:55:17] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-09 15:55:25] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-09 15:55:34] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-10 15:30:29] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-10 15:30:45] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-10 15:31:03] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------
+[2026-06-10 15:35:19] [INFO ] [main] Hooks - -------------------- STARTING SCENARIO SETUP --------------------
+[2026-06-10 15:35:29] [INFO ] [main] Scenario3 - Scenario : Logging into OrangeHRM application with administrative privileges
+[2026-06-10 15:35:56] [INFO ] [main] Hooks - -------------------- TEARING DOWN SCENARIO --------------------

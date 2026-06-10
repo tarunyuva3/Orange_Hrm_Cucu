@@ -75,6 +75,20 @@ public class PimPage {
     @FindBy(xpath = "//div[contains(@class,'oxd-toast')]")
     private WebElement successToastNotification;
 
+    //Scenario11
+    @FindBy(xpath = "//div[@role='row'][1]//span[contains(@class,'oxd-checkbox-input')]")
+    private WebElement idColumnHeader;
+
+    @FindBy(xpath = "//div[text()='Id']/div/i")
+    private WebElement idsortbutton;
+
+    @FindBy(xpath = "//span[text()='Ascending']")
+    private WebElement ascendingOption;
+
+    // Targets the page buttons inside the pagination list container
+    @FindBy(xpath = "//ul[@class='oxd-pagination__ul']//button[contains(@class,'oxd-pagination-page-item')]")
+    private java.util.List<WebElement> paginationPageButtons;
+
     public PimPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -82,9 +96,6 @@ public class PimPage {
         PageFactory.initElements(driver, this);
     }
 
-    // ========================================================
-    // PRESERVED METHODS TO KEEP SCENARIO 2 & 3 RUNNING STABLE
-    // ========================================================
 
     public void clickPim() {
         lp.waitForLoaderToDisappear();
@@ -252,6 +263,41 @@ public class PimPage {
             // Important execution safety: Ensures framework animations finish fully before evaluating downstream criteria loops
             lp.waitForLoaderToDisappear();
         }
+    }
+
+    public int getPaginationPageCount() {
+        lp.waitForLoaderToDisappear();
+        int count = 0;
+        for (WebElement btn : paginationPageButtons) {
+            // Only count structural buttons that contain text digits (ignores text strings like '<' or '>')
+            if (btn.getText().trim().matches("\\d+")) {
+                count++;
+            }
+        }
+        return count > 0 ? count : 1;
+    }
+
+    public void clickPageByIndex(int pageIndex) {
+        // Targets the page dynamically by text value matching (index + 1)
+        By targetPageXpath = By.xpath("//ul[@class='oxd-pagination__ul']//button[text()='" + (pageIndex + 1) + "']");
+        WebElement targetPage = wait.until(ExpectedConditions.elementToBeClickable(targetPageXpath));
+        targetPage.click();
+        lp.waitForLoaderToDisappear();
+    }
+
+    public void sortIdColumnAscending() {
+        // FIXED: Targets the specific dropdown sort button wrapper right inside the Id header cell
+        WebElement idButton = wait.until(ExpectedConditions.elementToBeClickable(idColumnHeader));
+        idButton.click();
+
+        wait.until(ExpectedConditions.elementToBeClickable(idsortbutton)).click();
+
+        // Locates and clicks the 'Ascending' text option from the custom popup menu context list container
+        WebElement ascendingOptionclick = wait.until(ExpectedConditions.elementToBeClickable(ascendingOption));
+        ascendingOptionclick.click();
+
+        // Synchronizes screen animation state via your existing framework loader layer
+        lp.waitForLoaderToDisappear();
     }
 
 }

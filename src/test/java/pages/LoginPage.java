@@ -59,6 +59,7 @@ public class LoginPage {
         return driver.getCurrentUrl();
     }
 
+    //Method used in every page to wait for the invisible loader to disappear
     public void waitForLoaderToDisappear() {
         try {
             wait.until(ExpectedConditions.invisibilityOfElementLocated(

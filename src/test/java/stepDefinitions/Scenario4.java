@@ -30,7 +30,6 @@ public class Scenario4 {
         // 4. Reload page to verify persistence state criteria
         String actualNationality = pimPage.getSavedNationalityAfterRefresh();
 
-        // FIXED: Placed expected and actual first, and moved the error message to the end
         Assertions.assertEquals(expectedNationality, actualNationality, "The nationality details failed to persist inside application after page refresh sequence!");
     }
 }
