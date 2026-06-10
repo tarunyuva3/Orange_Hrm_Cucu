@@ -25,7 +25,7 @@ import io.cucumber.junit.platform.engine.Constants;
 
 @ConfigurationParameter(
         key = "cucumber.ansi-colors.disabled",
-        value = "false")
+        value = "true")
 
 @ConfigurationParameter(
         key = "cucumber.publish.quiet",

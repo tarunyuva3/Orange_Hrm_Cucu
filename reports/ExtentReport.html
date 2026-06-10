@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 8, 2026 11:35:00 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 9, 2026 03:47:21 PM</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@AllTests</a><a class="dropdown-item" href="#">@Regression</a>
+<a class="dropdown-item" href="#">@Regression</a><a class="dropdown-item" href="#">@AllTests</a>
 </ul>
 </li>
 </ul>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">OrangeHRM Different Sceanrios</p>
             <p class="text-sm">
-              <span>11:35:01 PM</span> / <span>00:01:15:591</span>
+              <span>3:47:22 PM</span> / <span>00:08:19:144</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">OrangeHRM Different Sceanrios</h5>
-<span class='badge badge-success'>06.08.2026 11:35:01 PM</span>
-<span class='badge badge-danger'>06.08.2026 11:36:17 PM</span>
-<span class='badge badge-default'>00:01:15:591</span>
+<span class='badge badge-success'>06.09.2026 3:47:22 PM</span>
+<span class='badge badge-danger'>06.09.2026 3:55:41 PM</span>
+<span class='badge badge-default'>00:08:19:144</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,10 +120,189 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify employee search using filters</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify login with valid credentials</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserIsNavigatedToOrangeHrmLoginPage()">
+                <span>Given the user is navigated to OrangeHrm login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserEntersUsername(java.lang.String)">
+                <span>When the user enters username "Admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserEntersPassword(java.lang.String)">
+                <span>And the user enters password "admin123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserClicksTheLoginButton()">
+                <span>And the user clicks the Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theDashboardPageShouldLoadSuccessfully()">
+                <span>Then the Dashboard page should load successfully</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Verify login failure with invalid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Verify login failure with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the user is navigated to OrangeHrm login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters username "Invalid"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password "admin123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks the Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then an error message "Invalid credentials" should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Verify login failure with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the user is navigated to OrangeHrm login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters username "Admin"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user enters password "wrongPass"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks the Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then an error message "Invalid credentials" should be displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Verify adding a new employee successfully</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserIsNavigatedToOrangeHrmLoginPage()">
+                <span>Given the user is navigated to OrangeHrm login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserEntersUsername(java.lang.String)">
+                <span>When the user enters username "Admin"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserEntersPassword(java.lang.String)">
+                <span>And the user enters password "admin123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserClicksTheLoginButton()">
+                <span>And the user clicks the Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario1.theDashboardPageShouldLoadSuccessfully()">
+                <span>Then the Dashboard page should load successfully</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.navigatesToPIMAndClickOnAddEmployee()">
+                <span>And navigates to PIM and click on add employee</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.userEntersTheEmployeeNameAnd(java.lang.String,java.lang.String)">
+                <span>And user enters the employee name "Rav" and "rayudu"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.clickOnToggleButton()">
+                <span>And click on toggle button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.userFillsUsernameAndPassword(java.lang.String,java.lang.String)">
+                <span>And user fills username "Ravrayudu" and password "Ravireddy123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.clickOnSaveButton()">
+                <span>And click on save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario2.profileDetailsShouldBeDisplayed()">
+                <span>Then profile details should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>Verify employee search using filters</div>
+      </div>
+    </div>
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserIsNavigatedToOrangeHrmLoginPage()">
                 <span>Given the user is navigated to OrangeHrm login page</span>
@@ -140,19 +319,9 @@
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.Scenario3.matchingEmployeeRowsForShouldBeDisplayed(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.Scenario3.matchingEmployeeRowsForShouldBeDisplayed(java.lang.String)">
                 <span>Then matching employee rows for "Rav rayudu" should be displayed</span>
       <div>
-        <textarea disabled class="code-block">org.opentest4j.AssertionFailedError: Validation failed: Target search records for 'Rav rayudu' not visible inside structural rows! ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
-	at stepDefinitions.Scenario3.matchingEmployeeRowsForShouldBeDisplayed(Scenario3.java:41)
-	at ✽.matching employee rows for "Rav rayudu" should be displayed(classpath:features/orangeHrm.feature:50)
-</textarea>
-      
       </div>
               </div>
           </div>
@@ -161,159 +330,10 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Verify time registration state alterations from Punched In to Punched Out on Dashboard</div>
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Verify editing employee personal details</div>
       </div>
     </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step fail-bg" title="stepDefinitions.Scenario6.loginAsCreatedUser()">
-                <span>Given login as created user</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: username' (tried for 15 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario6.loginAsCreatedUser(Scenario6.java:57)
-	at ✽.login as created user(classpath:features/orangeHrm.feature:88)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=148.0.7778.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e8516b06ed505ba9b31fd78bb5b4f1b, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, goog:processID: 24144, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e8516b06ed505ba9b31fd78bb5b4f1b
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy1/jdk.proxy1.$Proxy41.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario6.loginAsCreatedUser(Scenario6.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario8.userAccessesPunchModuleFromDashboardClockWidgetShortcut()">
-                <span>When the user accesses Punch module from the Dashboard clock widget shortcut</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario8.entersPunchInTimeConfigurationValueAndClicksLogin(java.lang.String)">
-                <span>And enters Punch In time configuration value "06:00 AM" and clicks login</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario8.entersPunchOutTimeConfigurationValueAndClicksLogout(java.lang.String)">
-                <span>And enters Punch Out time configuration value "07:00 AM" and clicks logout</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario8.returnsBackOntoTheDashboardModuleViewPanel()">
-                <span>And returns back onto the Dashboard module view panel</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario8.dashboardTimeAtWorkStatusBadgeMustDisplayAs(java.lang.String)">
-                <span>Then the dashboard time at work status badge must display as "Punched Out"</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify editing employee personal details</div>
-      </div>
-    </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinitions.Scenario1.theUserIsNavigatedToOrangeHrmLoginPage()">
                 <span>Given the user is navigated to OrangeHrm login page</span>
@@ -325,27 +345,14 @@ Session ID: 1e8516b06ed505ba9b31fd78bb5b4f1b
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="stepDefinitions.Scenario4.theUserOpensEmployeeAndUpdatesGenderNationalityAndMaritalStatus(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.Scenario4.theUserOpensEmployeeAndUpdatesGenderNationalityAndMaritalStatus(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
                 <span>And the user opens employee "Rav rayudu" and updates gender "Male" nationality "Indian" and marital status "Single"</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[contains(@class,'oxd-table-card')]//div[contains(text(),'Rav')]/ancestor::div[contains(@class,'oxd-table-row')]//i[contains(@class,'bi-pencil-fill')]/parent::button (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62327}, goog:processID: 5304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62327/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8611baf983106092cf54501104ca5539
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.PimPage.openEmployeeDetailsForEditing(PimPage.java:170)
-	at stepDefinitions.Scenario4.theUserOpensEmployeeAndUpdatesGenderNationalityAndMaritalStatus(Scenario4.java:17)
-	at ✽.the user opens employee "Rav rayudu" and updates gender "Male" nationality "Indian" and marital status "Single"(classpath:features/orangeHrm.feature:57)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario4.employeeNationalityShouldPersistAs(java.lang.String)">
+              <div class="step pass-bg" title="stepDefinitions.Scenario4.employeeNationalityShouldPersistAs(java.lang.String)">
                 <span>Then employee nationality should persist as "Indian"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -354,14 +361,178 @@ Session ID: 8611baf983106092cf54501104ca5539
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Job Titles – File Upload and Text Area validation</div>
+        <div class="node" id="55"><span class="badge log pass-bg mr-2">Pass</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Job Titles – File Upload and Text Area validation</div>
+                  <div class="node" id="56"><span class="badge log pass-bg mr-2">Pass</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given login as admin user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user navigates to Leave and clicks Assign Leave options</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And handles assignment form input with employee name "Rav rayudu", leave type "CAN - Personal", start date "2026-07-01", and end date "2026-07-03"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the Assign button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the assignment form should conclude with status validation result "Success"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="64"><span class="badge log pass-bg mr-2">Pass</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given login as admin user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user navigates to Leave and clicks Assign Leave options</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And handles assignment form input with employee name "", leave type "-- Select --", start date "", and end date ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And clicks the Assign button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the assignment form should conclude with status validation result "Required Validation"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>Verify time registration state alterations from Punched In to Punched Out on Dashboard</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario6.loginAsCreatedUser()">
+                <span>Given login as created user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario8.userAccessesPunchModuleFromDashboardClockWidgetShortcut()">
+                <span>When the user accesses Punch module from the Dashboard clock widget shortcut</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario8.entersPunchInTimeConfigurationValueAndClicksLogin(java.lang.String)">
+                <span>And enters Punch In time configuration value "06:00 AM" and clicks login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario8.entersPunchOutTimeConfigurationValueAndClicksLogout(java.lang.String)">
+                <span>And enters Punch Out time configuration value "07:00 AM" and clicks logout</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario8.returnsBackOntoTheDashboardModuleViewPanel()">
+                <span>And returns back onto the Dashboard module view panel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario8.dashboardTimeAtWorkStatusBadgeMustDisplayAs(java.lang.String)">
+                <span>Then the dashboard time at work status badge must display as "Punched Out"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Admin Module - Add user role configuration and verification</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario3.loginAsAdminUser()">
+                <span>Given login as admin user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.theUserNavigatesToAdminUserManagementModule()">
+                <span>When the user navigates to Admin User Management module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.clicksTheAddUserButton()">
+                <span>And clicks the Add User button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.fillsOutUserDetailsWithRoleEmployeeNameStatusUsernameAndPassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+                <span>And fills out user details with role "Admin", employee name "Rav rayudu", status "Enabled", username "RaviRayudu", and password "Ravireddy123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.clicksTheSaveConfigurationButton()">
+                <span>And clicks the save configuration button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.theUserSearchesForUsernameInTheSystemUsersTable(java.lang.String)">
+                <span>Then the user searches for username "RaviRayudu" in the system users table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario9.verifiesThatTheUserAppearsSuccessfullyInTheDataRecordsRow()">
+                <span>And verifies that the user appears successfully in the data records row</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Job Titles – File Upload and Text Area validation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>Job Titles – File Upload and Text Area validation</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -407,29 +578,78 @@ Session ID: 8611baf983106092cf54501104ca5539
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Navigation Menu – Sidebar and Routing validation</div>
+        <div class="node" id="102"><span class="badge log pass-bg mr-2">Pass</span>Navigation Menu – Sidebar and Routing validation</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario3.loginAsAdminUser()">
+                <span>Given login as admin user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
+                <span>When the user clicks the "Admin" module link in the sidebar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.verifyAdminPageRouting(java.lang.String)">
+                <span>Then the Admin page should load successfully with the updated URL containing "admin/viewSystemUsers"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
+                <span>When the user clicks the "PIM" module link in the sidebar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.verifyPimPageRouting(java.lang.String)">
+                <span>Then the PIM page should load successfully with the updated URL containing "pim/viewEmployeeList"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
+                <span>When the user clicks the "Leave" module link in the sidebar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.verifyLeavePageRouting(java.lang.String)">
+                <span>Then the Leave page should load successfully with the updated URL containing "leave/viewLeaveList"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
+                <span>When the user clicks the "Time" module link in the sidebar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario14.verifyTimePageRouting(java.lang.String)">
+                <span>Then the Time page should load successfully with the updated URL containing "time/viewEmployeeTimesheet"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Verify deleting an employee using checkbox and confirmation modal</div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step fail-bg" title="stepDefinitions.Scenario3.loginAsAdminUser()">
-                <span>Given login as admin user</span>
+              <div class="step fail-bg" title="BEFORE">
+                <span>hooks.Hooks.setup()</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: username' (tried for 15 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at ✽.login as admin user(classpath:features/orangeHrm.feature:123)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.812
   (Session info: chrome=148.0.7778.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6c38b857aca643e63e315c6f896f599b, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49851}, goog:processID: 30000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49851/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6c38b857aca643e63e315c6f896f599b
+Command: [b70f0ac5b496b745f270b47cf0109bbe, get {url=https://opensource-demo.orangehrmlive.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50654}, goog:processID: 26264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50654/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b70f0ac5b496b745f270b47cf0109bbe
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -440,128 +660,44 @@ Session ID: 6c38b857aca643e63e315c6f896f599b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy1/jdk.proxy1.$Proxy41.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:329)
+	at hooks.Hooks.setup(Hooks.java:22)
 </textarea>
       
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
-                <span>When the user clicks the "Admin" module link in the sidebar menu</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario3.loginAsAdminUser()">
+                <span>Given login as admin user</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.verifyAdminPageRouting(java.lang.String)">
-                <span>Then the Admin page should load successfully with the updated URL containing "admin/viewSystemUsers"</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario3.theUserSearchesEmployeeFromEmployeeList(java.lang.String)">
+                <span>And the user searches employee "Rav rayudu" from Employee List</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
-                <span>When the user clicks the "PIM" module link in the sidebar menu</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario5.theUserSelectsTheCheckboxForEmployee(java.lang.String)">
+                <span>When the user selects the checkbox for employee "Rav rayudu"</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.verifyPimPageRouting(java.lang.String)">
-                <span>Then the PIM page should load successfully with the updated URL containing "pim/viewEmployeeList"</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario5.clicksTheDeleteSelectedButton()">
+                <span>And clicks the delete selected button</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
-                <span>When the user clicks the "Leave" module link in the sidebar menu</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario5.confirmsTheDeletionInTheModalPopup()">
+                <span>And confirms the deletion in the modal popup</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.verifyLeavePageRouting(java.lang.String)">
-                <span>Then the Leave page should load successfully with the updated URL containing "leave/viewLeaveList"</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario5.aSuccessMessageNotificationShouldBeDisplayed()">
+                <span>Then a success message notification should be displayed</span>
       <div>Step skipped
       </div>
               </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.theUserClicksTheModuleLinkInTheSidebarMenu(java.lang.String)">
-                <span>When the user clicks the "Time" module link in the sidebar menu</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinitions.Scenario14.verifyTimePageRouting(java.lang.String)">
-                <span>Then the Time page should load successfully with the updated URL containing "time/viewEmployeeTimesheet"</span>
+              <div class="step skip-bg" title="stepDefinitions.Scenario5.theEmployeeRecordShouldNoLongerExistInTheTable(java.lang.String)">
+                <span>And the employee record "Rav rayudu" should no longer exist in the table</span>
       <div>Step skipped
       </div>
               </div>
@@ -571,346 +707,32 @@ Session ID: 6c38b857aca643e63e315c6f896f599b
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
+        <div class="node" id="124"><span class="badge log pass-bg mr-2">Pass</span>Profile Menu – Dropdown and Logout validation</div>
       </div>
     </div>
-        <div class="scenario_outline ">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step fail-bg">
-                    <span>Given login as admin user</span>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Scenario3.loginAsAdminUser()">
+                <span>Given login as admin user</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: username' (tried for 15 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at ✽.login as admin user(classpath:features/orangeHrm.feature:74)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=148.0.7778.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2582d5ac6fb78fa85cbc5a3cde2c942f, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51206}, goog:processID: 23976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51206/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2582d5ac6fb78fa85cbc5a3cde2c942f
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy1/jdk.proxy1.$Proxy41.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.execSync(ForkJoinPoolHierarchicalTestExecutorService.java:247)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:159)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-</textarea>
-      
       </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>When the user navigates to Leave and clicks Assign Leave options</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>And handles assignment form input with employee name "", leave type "-- Select --", start date "", and end date ""</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>And clicks the Assign button</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>Then the assignment form should conclude with status validation result "Required Validation"</span>
-      <div>Step skipped
-      </div>
-                  </div>
               </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="15"><span class="badge log fail-bg mr-2">Fail</span>Verify assigning leave behaviors for both valid data and missing required fields</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step fail-bg">
-                    <span>Given login as admin user</span>
+              <div class="step pass-bg" title="stepDefinitions.Scenario15.theUserClicksTheProfileIconDropdownMenu()">
+                <span>When the user clicks the profile icon dropdown menu</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: username' (tried for 15 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at ✽.login as admin user(classpath:features/orangeHrm.feature:74)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=148.0.7778.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f8527bdf4ce2cbc5a119c307a366a5ef, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.97, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\2457388\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53907}, goog:processID: 21216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53907/devtoo..., se:cdpVersion: 148.0.7778.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy1/jdk.proxy1.$Proxy41.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at pages.LoginPage.enterUsername(LoginPage.java:35)
-	at stepDefinitions.Scenario3.loginAsAdminUser(Scenario3.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
-	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.execSync(ForkJoinPoolHierarchicalTestExecutorService.java:247)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:159)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
-	at java.base/java.util.concurrent.ForkJoinTask.fork(ForkJoinTask.java)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.forkConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:182)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:165)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.exec(ForkJoinPoolHierarchicalTestExecutorService.java:274)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:387)
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-</textarea>
-      
       </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>When the user navigates to Leave and clicks Assign Leave options</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>And handles assignment form input with employee name "Rav rayudu", leave type "CAN - Personal", start date "2026-07-01", and end date "2026-07-03"</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>And clicks the Assign button</span>
-      <div>Step skipped
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>Then the assignment form should conclude with status validation result "Success"</span>
-      <div>Step skipped
-      </div>
-                  </div>
               </div>
-            </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario15.selectsTheLogoutOption()">
+                <span>And selects the Logout option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Scenario15.theUserShouldBeRedirectedBackToTheLoginPageSuccessfully()">
+                <span>Then the user should be redirected back to the login page successfully</span>
+      <div>
+      </div>
+              </div>
+          </div>
         </div>
   </div>
 </div>
@@ -929,7 +751,7 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -938,12 +760,12 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.opentest4j.AssertionFailedError</p>
+<p class="name">org.openqa.selenium.TimeoutException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.opentest4j.AssertionFailedError</h4>
+<h4>org.openqa.selenium.TimeoutException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -957,87 +779,11 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:55 PM</td>
+<td>15:54:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='61'>Then matching employee rows for "Rav rayudu" should be displayed</a>
+<a href="#" class="linked" test-id='1' id='115'>hooks.Hooks.setup()</a>
 <div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify employee search using filters.Then matching employee rows for "Rav rayudu" should be displayed</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>5</span>
-</span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
-<p class="duration text-sm">5 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
-<span status="fail" class='badge log badge-danger'>5 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:11 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='19'>Given login as created user</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify time registration state alterations from Punched In to Punched Out on Dashboard.Given login as created user</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:11 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='21'>Given login as admin user</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields.Given login as admin user</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:11 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='20'>Given login as admin user</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields.Given login as admin user</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:12 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='22'>Given login as admin user</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Navigation Menu – Sidebar and Routing validation.Given login as admin user</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:34 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='53'>And the user opens employee "Rav rayudu" and updates gender "Male" nationality "Indian" and marital status "Single"</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify editing employee personal details.And the user opens employee "Rav rayudu" and updates gender "Male" nationality "Indian" and marital status "Single"</span>
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify deleting an employee using checkbox and confirmation modal.hooks.Hooks.setup()</span>
 </div>
 </td>
 </tr>
@@ -1064,17 +810,15 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>6</span>
+<span class='badge log pass-bg'>7</span>
 </span>
-<p class="name">@AllTests</p>
+<p class="name">@Regression</p>
 <p class="duration text-sm">7 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@AllTests</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>6 failed</span>
+<h4>@Regression</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1085,31 +829,21 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:48:53 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Verify employee search using filters</a>
+<a href="#" class="linked" test-id='1' id='41'>Verify employee search using filters</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Verify employee search using filters</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:49:45 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Verify time registration state alterations from Punched In to Punched Out on Dashboard</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify time registration state alterations from Punched In to Punched Out on Dashboard</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='4'>Verify editing employee personal details</a>
+<a href="#" class="linked" test-id='1' id='48'>Verify editing employee personal details</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Verify editing employee personal details</span>
 </div>
@@ -1117,41 +851,51 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>23:35:01 PM</td>
+<td>15:50:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='7'>Job Titles – File Upload and Text Area validation</a>
+<a href="#" class="linked" test-id='1' id='56'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:51:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:51:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='72'>Verify time registration state alterations from Punched In to Punched Out on Dashboard</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify time registration state alterations from Punched In to Punched Out on Dashboard</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='92'>Job Titles – File Upload and Text Area validation</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Job Titles – File Upload and Text Area validation</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:03 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>Navigation Menu – Sidebar and Routing validation</a>
+<a href="#" class="linked" test-id='1' id='102'>Navigation Menu – Sidebar and Routing validation</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Navigation Menu – Sidebar and Routing validation</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='10'>Verify assigning leave behaviors for both valid data and missing required fields</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='15'>Verify assigning leave behaviors for both valid data and missing required fields</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
 </div>
 </td>
 </tr>
@@ -1162,17 +906,17 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>6</span>
+<span class='badge log pass-bg'>13</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@Regression</p>
-<p class="duration text-sm">7 tests</p>
+<p class="name">@AllTests</p>
+<p class="duration text-sm">14 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Regression</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>6 failed</span>
+<h4>@AllTests</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1183,31 +927,61 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:47:22 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Verify employee search using filters</a>
+<a href="#" class="linked" test-id='1' id='2'>Verify login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify login with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:47:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Verify login failure with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify login failure with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:48:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Verify login failure with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify login failure with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:48:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Verify adding a new employee successfully</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify adding a new employee successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:48:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='41'>Verify employee search using filters</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Verify employee search using filters</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:49:45 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Verify time registration state alterations from Punched In to Punched Out on Dashboard</a>
-<div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify time registration state alterations from Punched In to Punched Out on Dashboard</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='4'>Verify editing employee personal details</a>
+<a href="#" class="linked" test-id='1' id='48'>Verify editing employee personal details</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Verify editing employee personal details</span>
 </div>
@@ -1215,19 +989,59 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>23:35:01 PM</td>
+<td>15:50:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='7'>Job Titles – File Upload and Text Area validation</a>
+<a href="#" class="linked" test-id='1' id='56'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:51:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:51:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='72'>Verify time registration state alterations from Punched In to Punched Out on Dashboard</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify time registration state alterations from Punched In to Punched Out on Dashboard</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='81'>Admin Module - Add user role configuration and verification</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Admin Module - Add user role configuration and verification</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='92'>Job Titles – File Upload and Text Area validation</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Job Titles – File Upload and Text Area validation</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:03 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>Navigation Menu – Sidebar and Routing validation</a>
+<a href="#" class="linked" test-id='1' id='102'>Navigation Menu – Sidebar and Routing validation</a>
 <div class="">
 <span class="badge badge-default">OrangeHRM Different Sceanrios.Navigation Menu – Sidebar and Routing validation</span>
 </div>
@@ -1235,21 +1049,21 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<td>15:54:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='10'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<a href="#" class="linked" test-id='1' id='114'>Verify deleting an employee using checkbox and confirmation modal</a>
 <div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify deleting an employee using checkbox and confirmation modal</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:35:01 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:55:17 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='15'>Verify assigning leave behaviors for both valid data and missing required fields</a>
+<a href="#" class="linked" test-id='1' id='124'>Profile Menu – Dropdown and Logout validation</a>
 <div class="">
-<span class="badge badge-default">OrangeHRM Different Sceanrios.Verify assigning leave behaviors for both valid data and missing required fields</span>
+<span class="badge badge-default">OrangeHRM Different Sceanrios.Profile Menu – Dropdown and Logout validation</span>
 </div>
 </td>
 </tr>
@@ -1270,13 +1084,13 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 8, 2026 11:35:00 PM</h3>
+<h3>Jun 9, 2026 03:47:21 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 8, 2026 11:36:17 PM</h3>
+<h3>Jun 9, 2026 03:55:41 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1327,9 +1141,9 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='14%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='92%'><b>13</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='85%'><b>6</b> scenarios failed,
+<small data-tooltip='7%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1347,10 +1161,10 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='30%'><b>12</b> steps passed</small></div>
+<div><small data-tooltip='90%'><b>77</b> steps passed</small></div>
 <div>
-<small data-tooltip='15%'><b>6</b> steps failed,
-<b>22</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>7</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -1366,7 +1180,7 @@ Session ID: f8527bdf4ce2cbc5a119c307a366a5ef
 </div></div>
 <script>
 var timeline = {
-"OrangeHRM Different Sceanrios":75.591
+"OrangeHRM Different Sceanrios":499.144
 };
 </script>
 <div class="row">
@@ -1376,20 +1190,20 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@AllTests</td>
-<td>1</td>
-<td>6</td>
+<td>@Regression</td>
+<td>7</td>
 <td>0</td>
 <td>0</td>
-<td>14.286%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
-<td>@Regression</td>
+<td>@AllTests</td>
+<td>13</td>
 <td>1</td>
-<td>6</td>
 <td>0</td>
 <td>0</td>
-<td>14.286%</td>
+<td>92.857%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1423,16 +1237,16 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 6,
+passChild: 13,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 12,
-failGrandChild: 6,
+passGrandChild: 77,
+failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 22,
+skipGrandChild: 7,
 infoGrandChild: 0,
 eventsCount: 5,
 };

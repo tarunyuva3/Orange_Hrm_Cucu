@@ -18,7 +18,7 @@ public class Scenario3 {
 
     @When("login as admin user")
     public void loginAsAdminUser() {
-        //log.info("Scenario 3: Logging into OrangeHRM application with administrative privileges");
+        log.info("Scenario : Logging into OrangeHRM application with administrative privileges");
         loginPage.enterUsername("Admin");
         loginPage.enterPassword("admin123");
         loginPage.clickLogin();
@@ -26,18 +26,17 @@ public class Scenario3 {
 
     @And("the user searches employee {string} from Employee List")
     public void theUserSearchesEmployeeFromEmployeeList(String employeeName) {
-        log.info("Scenario 3: Initializing PIM module search routine for target: {}", employeeName);
+        log.info("Scenario : Initializing PIM module search routine for target: {}", employeeName);
         pimPage.clickPim();
         pimPage.searchEmployee(employeeName);
     }
 
     @Then("matching employee rows for {string} should be displayed")
     public void matchingEmployeeRowsForShouldBeDisplayed(String employeeName) {
-        log.info("Scenario 3: Confirming structural search visibility match criteria for: {}", employeeName);
+        log.info("Scenario : Confirming structural search visibility match criteria for: {}", employeeName);
         String matchKey = employeeName.split(" ")[0];
         boolean isMatched = pimPage.tableContains(matchKey);
 
-        // FIXED: Placed the condition first, and moved the error message to the end
         Assertions.assertTrue(isMatched, "Validation failed: Target search records for '" + employeeName + "' not visible inside structural rows!");
     }
 }

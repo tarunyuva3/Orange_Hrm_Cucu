@@ -63,7 +63,7 @@ public class Scenario1
         String actualErrorMessage = loginPage.getErrorMessage();
         log.info("Captured Error Message from UI: " + actualErrorMessage);
 
-        // FIXED: Switched from Assert to Assertions and moved the message parameter to the end
+
         Assertions.assertEquals(expectedErrorMessage, actualErrorMessage, "Error message did not match!");
     }
 }
